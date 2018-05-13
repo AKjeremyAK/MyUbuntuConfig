@@ -1,4 +1,5 @@
 This is my personal ubuntu configuration repo. Local repo is always put under ~/Document/
+
 Containing:
 - VIM config
   - .vimrc
