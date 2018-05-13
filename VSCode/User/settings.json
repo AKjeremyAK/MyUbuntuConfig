@@ -1,0 +1,8 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "vscode-icons",
+    "files.autoSave": "onFocusChange",
+    "window.zoomLevel": 0,
+    "editor.fontSize": 16,
+    "editor.minimap.enabled": false
+}
