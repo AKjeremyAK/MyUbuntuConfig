@@ -32,4 +32,4 @@ sudo dpkg -i sublime-text-3.deb
 - *extensions* folder should be put under ~/.vscode/
 
 ###source list
-source list is sorted by Ubuntu version. Under /etc/apt/
+- source list is sorted by Ubuntu version. Under /etc/apt/
