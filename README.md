@@ -1,15 +1,8 @@
-This is my personal ubuntu configuration repo. Remember put local repo under *~/Document/*.
+This is my personal ubuntu configuration repo on **WSL**. Remember put local repo under *~/Document/*.
 
 Containing:
 - VIM config
   - .vimrc
-- Sublime Text 3 
-  - deb file
-  - Sublime Text 3 config for package and debug setting
-- VS Code 
-  - user setting
-  - debug setting
-  - extensions
 - source list
 - More to go...
 
@@ -19,18 +12,7 @@ Warning: WSL branch doesn't have the software need GUI, like Sublime Text 3 and 
 - .vimrc:
   - */home/username/.vimrc*, or *~/.vimrc*
   - */root/.vimrc*
-
-### Sublime Text 3
-- Installation success for now
-```bash
-sudo dpkg -i sublime-text-3.deb
-```
-- The 2 folders *Installed Package* and *Package* is under *~/.config/sublime-text-3/*
-
-### VS Code
-- VS Code debug setting is sorted by language, each has their own *.vscode* folder. Put them under the folder you work with. 
-- User setting is in the folder *User* under *~/.config/Code*
-- *extensions* folder should be put under *~/.vscode/*
+  - As for Plugins, Vundle should be installed manually, then use Vundle to install and manage plugins. See [Vundle_README](https://github.com/VundleVim/Vundle.vim/blob/master/README_ZH_CN.md)
 
 ### source list
-- source list is sorted by Ubuntu version. Under */etc/apt/*
+- source list is sorted by Ubuntu version. Put *sources.list* under */etc/apt/*
